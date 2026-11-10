@@ -748,7 +748,7 @@
       try {
         const ts = new Date().getTime();
         const [tResp, cResp, rResp, comResp] = await Promise.all([
-          fetch(`https://labriolasecondag.github.io/orario/doc_dict.json?nocache=${ts}`),
+          fetch(`doc_dict.json?nocache=${ts}`),
           fetch(`https://labriolasecondag.github.io/orario/class_dict.json?nocache=${ts}`),
           fetch(`https://labriolasecondag.github.io/orario/aule_dict.json?nocache=${ts}`),
           fetch(`https://labriolasecondag.github.io/orario/comunicazioni.json?nocache=${ts}`)
