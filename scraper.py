@@ -39,12 +39,12 @@ def scrape_comunicazioni():
                 cells = [c.get_text(strip=True) for c in row.find_all(["th", "td"])]
                 if len(cells) >= 2 and any(cells):
                     ingressi_uscite.append({"classe": cells[0] if len(cells)>0 else "", "ingresso": cells[1] if len(cells)>1 else "", "uscita": cells[2] if len(cells)>2 else "", "sostituzione": cells[3] if len(cells)>3 else "", "aula": cells[4] if len(cells)>4 else ""})
-        elif "ORA" in header_str and "CLASSE" in header_str and "AULA" in header_str and headers[0] == "ORA":
+        elif "ORA" in header_str and ("CLASSE" in header_str or "CLASSI" in header_str) and "AULA" in header_str and headers[0] == "ORA":
             for row in rows[1:]:
                 cells = [c.get_text(strip=True) for c in row.find_all(["th", "td"])]
                 if len(cells) >= 2 and any(cells):
                     cambi_aula.append({"ora": cells[0] if len(cells)>0 else "", "classe": cells[1] if len(cells)>1 else "", "aula": cells[2] if len(cells)>2 else "", "docente": cells[3] if len(cells)>3 else ""})
-        elif "CLASSE" in header_str and "ORA" in header_str and "DOCENTE" in header_str and headers[0] == "CLASSE":
+        elif ("CLASSE" in header_str or "CLASSI" in header_str) and "ORA" in header_str and "DOCENTE" in header_str and headers[0] in ("CLASSE", "CLASSI"):
             for row in rows[1:]:
                 cells = [c.get_text(strip=True) for c in row.find_all(["th", "td"])]
                 if len(cells) >= 2 and any(cells):
