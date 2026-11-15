@@ -3,47 +3,47 @@
   "giorno_settimana": 6,
   "ingressi_uscite": [
     {
-      "classe": "1A",
+      "classe": "1Z",
       "ingresso": "10:00",
       "uscita": "—",
       "sostituzione": "ZAMMATARO ant. 2h",
       "aula": "101"
     },
     {
-      "classe": "3B",
+      "classe": "3Z",
       "ingresso": "—",
       "uscita": "12:00",
-      "sostituzione": "DE RUVO post in 3h",
+      "sostituzione": "DE ROSSI post in 3h",
       "aula": "Lab Info"
     },
     {
-      "classe": "4F",
+      "classe": "4Z",
       "ingresso": "9:00",
       "uscita": "—",
-      "sostituzione": "SERPICO ant in 3h AGRAMANTI ant in 4h",
+      "sostituzione": "MALEN ant in 3h DIBALA ant in 4h",
       "aula": "205"
     }
   ],
   "sostituzioni": [
     {
-      "classe": "2C",
+      "classe": "2R",
       "ora": "2",
       "aula": "112",
-      "docente": "ROSSI"
+      "docente": " DE ROSSI"
     },
     {
-      "classe": "5A",
+      "classe": "5X",
       "ora": "4",
       "aula": "Aula Magna",
-      "docente": "VERDI"
+      "docente": "MANCINI"
     }
   ],
   "cambi_aula": [
     {
       "ora": "3",
-      "classe": "3D",
+      "classe": "3Z",
       "aula": "Lab Scienze",
-      "docente": "BIANCHI"
+      "docente": "FORZA ROMA"
     }
   ]
 }
