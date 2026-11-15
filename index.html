@@ -1274,8 +1274,13 @@ if (freeRoomsResult) freeRoomsResult.innerHTML = "";
       if (!com.data && !hasData) { section.style.display = "none"; return; }
 
       section.style.display = "block";
+      const GIORNI_DISPLAY = ["Lunedì","Martedì","Mercoledì","Giovedì","Venerdì","Sabato","Domenica"];
+      const idxGiorno = (com.giorno_settimana >= 0 && com.giorno_settimana <= 6)
+        ? com.giorno_settimana
+        : (new Date().getDay() === 0 ? 6 : new Date().getDay() - 1);
+      const nomeGiorno = GIORNI_DISPLAY[idxGiorno] || "";
       document.getElementById("comData").textContent =
-        com.data ? `${com.data}` : "";
+        com.data ? `${nomeGiorno} ${com.data}` : "";
 
       // Messaggio "nessuna comunicazione" quando le tabelle sono tutte vuote
       const nessunaMsg = document.getElementById("comNessunaMsg");
