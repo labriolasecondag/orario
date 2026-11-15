@@ -1,0 +1,49 @@
+{
+  "data": "15/11/2026",
+  "giorno_settimana": 6,
+  "ingressi_uscite": [
+    {
+      "classe": "1A",
+      "ingresso": "10:00",
+      "uscita": "—",
+      "sostituzione": "ZAMMATARO ant. 2h",
+      "aula": "101"
+    },
+    {
+      "classe": "3B",
+      "ingresso": "—",
+      "uscita": "12:00",
+      "sostituzione": "DE RUVO post in 3h",
+      "aula": "Lab Info"
+    },
+    {
+      "classe": "4F",
+      "ingresso": "9:00",
+      "uscita": "—",
+      "sostituzione": "SERPICO ant in 3h AGRAMANTI ant in 4h",
+      "aula": "205"
+    }
+  ],
+  "sostituzioni": [
+    {
+      "classe": "2C",
+      "ora": "2",
+      "aula": "112",
+      "docente": "ROSSI"
+    },
+    {
+      "classe": "5A",
+      "ora": "4",
+      "aula": "Aula Magna",
+      "docente": "VERDI"
+    }
+  ],
+  "cambi_aula": [
+    {
+      "ora": "3",
+      "classe": "3D",
+      "aula": "Lab Scienze",
+      "docente": "BIANCHI"
+    }
+  ]
+}
