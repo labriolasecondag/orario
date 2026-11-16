@@ -1,49 +1,7 @@
 {
-  "data": "15/11/2026",
-  "giorno_settimana": 6,
-  "ingressi_uscite": [
-    {
-      "classe": "1Z",
-      "ingresso": "10:00",
-      "uscita": "—",
-      "sostituzione": "ZAMMATARO ant. 2h",
-      "aula": "101"
-    },
-    {
-      "classe": "3Z",
-      "ingresso": "—",
-      "uscita": "12:00",
-      "sostituzione": "DE ROSSI post in 3h",
-      "aula": "Lab Info"
-    },
-    {
-      "classe": "4Z",
-      "ingresso": "9:00",
-      "uscita": "—",
-      "sostituzione": "MALEN ant in 3h DIBALA ant in 4h",
-      "aula": "205"
-    }
-  ],
-  "sostituzioni": [
-    {
-      "classe": "2R",
-      "ora": "2",
-      "aula": "112",
-      "docente": " DE ROSSI"
-    },
-    {
-      "classe": "5X",
-      "ora": "4",
-      "aula": "Aula Magna",
-      "docente": "MANCINI"
-    }
-  ],
-  "cambi_aula": [
-    {
-      "ora": "3",
-      "classe": "3Z",
-      "aula": "Lab Scienze",
-      "docente": "FORZA ROMA"
-    }
-  ]
+  "data": "16/11/2026",
+  "giorno_settimana": 0,
+  "ingressi_uscite": [],
+  "sostituzioni": [],
+  "cambi_aula": []
 }
