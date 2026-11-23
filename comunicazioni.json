@@ -22,6 +22,13 @@
       "uscita": "",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "1I",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
@@ -66,6 +73,12 @@
       "ora": "4",
       "aula": "107",
       "docente": "VECCHIOTTI"
+    },
+    {
+      "classe": "2I",
+      "ora": "4",
+      "aula": "130",
+      "docente": "LAUDANI"
     }
   ],
   "cambi_aula": []
