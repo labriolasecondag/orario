@@ -1,7 +1,72 @@
 {
-  "data": "17/11/2026",
+  "data": "24/11/2026",
   "giorno_settimana": 1,
-  "ingressi_uscite": [],
-  "sostituzioni": [],
+  "ingressi_uscite": [
+    {
+      "classe": "4I",
+      "ingresso": "9.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5C",
+      "ingresso": "",
+      "uscita": "12.10",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5B",
+      "ingresso": "10.10",
+      "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    }
+  ],
+  "sostituzioni": [
+    {
+      "classe": "3C",
+      "ora": "3",
+      "aula": "227",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "3N",
+      "ora": "4",
+      "aula": "226",
+      "docente": "TIBALDI"
+    },
+    {
+      "classe": "3N",
+      "ora": "5",
+      "aula": "226",
+      "docente": "MARONE"
+    },
+    {
+      "classe": "4I",
+      "ora": "2",
+      "aula": "223",
+      "docente": "POLITO"
+    },
+    {
+      "classe": "3I",
+      "ora": "3",
+      "aula": "226",
+      "docente": "LASERRA"
+    },
+    {
+      "classe": "3B",
+      "ora": "3",
+      "aula": "107",
+      "docente": "FORCELLINO"
+    },
+    {
+      "classe": "3B",
+      "ora": "4",
+      "aula": "107",
+      "docente": "VECCHIOTTI"
+    }
+  ],
   "cambi_aula": []
 }
