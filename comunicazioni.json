@@ -1,85 +1,68 @@
 {
-  "data": "24/11/2026",
-  "giorno_settimana": 1,
+  "data": "26/11/2026",
+  "giorno_settimana": 3,
   "ingressi_uscite": [
     {
-      "classe": "4I",
+      "classe": "3N",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "5C",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "5C",
+      "classe": "1G",
       "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "5B",
-      "ingresso": "10.10",
-      "uscita": "",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "1I",
-      "ingresso": "10.10",
-      "uscita": "",
+      "classe": "4D",
+      "ingresso": "",
+      "uscita": "13.05",
       "sostituzione": "",
       "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "3C",
-      "ora": "3",
-      "aula": "227",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "3N",
-      "ora": "4",
-      "aula": "226",
-      "docente": "TIBALDI"
-    },
-    {
-      "classe": "3N",
-      "ora": "5",
-      "aula": "226",
-      "docente": "MARONE"
-    },
-    {
-      "classe": "4I",
+      "classe": "1C",
       "ora": "2",
-      "aula": "223",
-      "docente": "POLITO"
+      "aula": "LINUX",
+      "docente": "BARBATO"
     },
     {
-      "classe": "3I",
-      "ora": "3",
-      "aula": "226",
-      "docente": "LASERRA"
-    },
-    {
-      "classe": "3B",
-      "ora": "3",
-      "aula": "107",
-      "docente": "FORCELLINO"
-    },
-    {
-      "classe": "3B",
+      "classe": "1D",
       "ora": "4",
-      "aula": "107",
-      "docente": "VECCHIOTTI"
-    },
-    {
-      "classe": "2I",
-      "ora": "4",
-      "aula": "130",
-      "docente": "LAUDANI"
+      "aula": "LINUX",
+      "docente": "REGA"
     }
   ],
-  "cambi_aula": []
+  "cambi_aula": [
+    {
+      "ora": "3-4-5",
+      "classe": "3G+3N (metà classe, come da calendario su R.E.)",
+      "aula": "A.M.",
+      "docente": ""
+    },
+    {
+      "ora": "3/4",
+      "classe": "4A",
+      "aula": "226",
+      "docente": ""
+    },
+    {
+      "ora": "5",
+      "classe": "5A",
+      "aula": "213",
+      "docente": ""
+    }
+  ]
 }
