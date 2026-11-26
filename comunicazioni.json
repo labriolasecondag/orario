@@ -1,74 +1,92 @@
 {
-  "data": "26/11/2026",
-  "giorno_settimana": 3,
+  "data": "27/11/2026",
+  "giorno_settimana": 4,
   "ingressi_uscite": [
     {
       "classe": "3N",
-      "ingresso": "",
-      "uscita": "13.05",
-      "sostituzione": "",
-      "aula": ""
-    },
-    {
-      "classe": "5C",
       "ingresso": "9.10",
       "uscita": "",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "1G",
+      "classe": "5E",
       "ingresso": "",
       "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "4D",
+      "classe": "2F",
       "ingresso": "",
-      "uscita": "13.05",
+      "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     },
     {
-      "classe": "3C",
-      "ingresso": "9.10",
+      "classe": "5C",
+      "ingresso": "10.10",
       "uscita": "",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "2D",
+      "ingresso": "",
+      "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
     }
   ],
   "sostituzioni": [
     {
-      "classe": "1C",
+      "classe": "1I",
       "ora": "2",
-      "aula": "LINUX",
-      "docente": "BARBATO"
+      "aula": "107",
+      "docente": "FATTORUSO"
     },
     {
-      "classe": "1D",
+      "classe": "1C",
       "ora": "4",
-      "aula": "LINUX",
-      "docente": "REGA"
+      "aula": "116",
+      "docente": "SORACI"
+    },
+    {
+      "classe": "5F",
+      "ora": "3",
+      "aula": "",
+      "docente": "FATTORUSO"
+    },
+    {
+      "classe": "2C",
+      "ora": "4",
+      "aula": "219",
+      "docente": "ZAMMATARO"
+    },
+    {
+      "classe": "2C",
+      "ora": "5",
+      "aula": "219",
+      "docente": "PETRUCCI"
+    },
+    {
+      "classe": "3C",
+      "ora": "4",
+      "aula": "104",
+      "docente": "AZZARITA"
     }
   ],
   "cambi_aula": [
     {
-      "ora": "3-4-5",
-      "classe": "3G+3N (metà classe, come da calendario su R.E.)",
-      "aula": "A.M.",
-      "docente": ""
-    },
-    {
-      "ora": "3/4",
-      "classe": "4A",
-      "aula": "226",
+      "ora": "5/6",
+      "classe": "4G",
+      "aula": "207",
       "docente": ""
     },
     {
       "ora": "5",
-      "classe": "5A",
-      "aula": "213",
+      "classe": "1G",
+      "aula": "116",
       "docente": ""
     }
   ]
