@@ -36,14 +36,41 @@
       "uscita": "12.10",
       "sostituzione": "",
       "aula": ""
+    },
+    {
+      "classe": "5F",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "ant  MASTRIPIERI 3h",
+      "aula": "220"
+    },
+    {
+      "classe": "2C",
+      "ingresso": "",
+      "uscita": "11.00",
+      "sostituzione": "",
+      "aula": ""
+    },
+    {
+      "classe": "4D",
+      "ingresso": "",
+      "uscita": "13.05",
+      "sostituzione": "",
+      "aula": ""
     }
   ],
   "sostituzioni": [
     {
+      "classe": "3C",
+      "ora": "4",
+      "aula": "104",
+      "docente": "AZZARITA"
+    },
+    {
       "classe": "1I",
       "ora": "2",
       "aula": "107",
-      "docente": "FATTORUSO"
+      "docente": "FORCELLINO"
     },
     {
       "classe": "1C",
@@ -52,28 +79,10 @@
       "docente": "SORACI"
     },
     {
-      "classe": "5F",
-      "ora": "3",
-      "aula": "",
-      "docente": "FATTORUSO"
-    },
-    {
-      "classe": "2C",
-      "ora": "4",
-      "aula": "219",
-      "docente": "ZAMMATARO"
-    },
-    {
-      "classe": "2C",
+      "classe": "4G",
       "ora": "5",
-      "aula": "219",
-      "docente": "PETRUCCI"
-    },
-    {
-      "classe": "3C",
-      "ora": "4",
-      "aula": "104",
-      "docente": "AZZARITA"
+      "aula": "207",
+      "docente": "PETRUCCI C"
     }
   ],
   "cambi_aula": [
